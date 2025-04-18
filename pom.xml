@@ -72,6 +72,11 @@
                     <compilerArgs>
                         <arg>-parameters</arg>
                     </compilerArgs>
+                    <basedir/>
+                    <mainOutputDirectory/>
+                    <mojoStatusPath/>
+                    <outputDirectory/>
+                    <projectArtifact/>
                 </configuration>
             </plugin>
         </plugins>
