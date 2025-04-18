@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: QBC-Gateway-Service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      import-check:
+        enabled: false
+    gateway:
+      routes:
+        - id: service-a
+          uri: lb://SERVICE-A
+          predicates:
+            - Path=/service-a/**
+          filters:
+            - StripPrefix=1
+        - id: service-b
+          uri: lb://SERVICE-B
+          predicates:
+            - Path=/service-b/**
+          filters:
+            - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
