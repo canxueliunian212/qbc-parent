@@ -13,6 +13,7 @@
         <module>qbc-config-service</module>
         <module>qbc-eureka-service</module>
         <module>qbc-gateway-service</module>
+        <module>qbc-mybatis-generator</module>
     </modules>
 
     <properties>
@@ -27,6 +28,8 @@
         <spring-cloud-alibaba.version>2023.0.3.2</spring-cloud-alibaba.version>
         <pagehelper-spring-boot-starter.version>2.1.0</pagehelper-spring-boot-starter.version>
         <mybatis-spring-boot-starter.version>3.0.4</mybatis-spring-boot-starter.version>
+        <mybatis-generator.version>1.4.2</mybatis-generator.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
     </properties>
 
     <dependencyManagement>

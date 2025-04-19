@@ -10,7 +10,7 @@
     <artifactId>QBC-Inner-Auth-Service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>QBC-Inner-Auth-Service</name>
-    <description>QBC inner auth and permission service</description>
+    <description>QBC Company inner auth service</description>
 
 
     <dependencies>
