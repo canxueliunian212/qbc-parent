@@ -10,8 +10,6 @@
     <modules>
         <module>qbc-inner-auth-service</module>
         <module>qbc-commons</module>
-        <module>qbc-config-service</module>
-        <module>qbc-eureka-service</module>
         <module>qbc-gateway-service</module>
         <module>qbc-mybatis-generator</module>
     </modules>
@@ -34,13 +32,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${spring-cloud-alibaba.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -75,11 +66,6 @@
                     <compilerArgs>
                         <arg>-parameters</arg>
                     </compilerArgs>
-                    <basedir/>
-                    <mainOutputDirectory/>
-                    <mojoStatusPath/>
-                    <outputDirectory/>
-                    <projectArtifact/>
                 </configuration>
             </plugin>
         </plugins>

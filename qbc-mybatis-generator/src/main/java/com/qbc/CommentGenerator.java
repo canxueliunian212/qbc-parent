@@ -11,10 +11,9 @@ import org.mybatis.generator.internal.util.StringUtility;
 import java.util.Properties;
 
 /**
- * @auther macrozheng
+ * @auther chenpei
  * @description 自定义注释生成器
- * @date 2018/4/26
- * @github https://github.com/macrozheng
+ * @date 2025/04/19
  */
 public class CommentGenerator extends DefaultCommentGenerator {
     private boolean addRemarkComments = false;
